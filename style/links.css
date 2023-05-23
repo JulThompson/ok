@@ -42,10 +42,15 @@ h1 {
     border-radius: 3px;
     background-color: #ffd23f;
     margin-right: 10px;
-    transition: all .5s;
+    transition: all .25s;
+}
+
+.coolBtn:hover{
+    background-color: orange;
 }
 
 .coolBtn:active {
+    background-color: orange;
     box-shadow: 0px 0px;
     transform: translateY(5px);
 }
