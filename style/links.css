@@ -28,3 +28,21 @@ h1 {
 .link {
     font-size: 25px;
 }
+
+
+.coolBtn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 5px black;
+    border-radius: 3px;
+    background-color: yellow;
+    margin-right: 10px;
+    transition: all .5s;
+}
+
+.coolBtn:active {
+    box-shadow: 0px 0px;
+    transform: translateY(5px);
+}
