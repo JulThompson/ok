@@ -6,6 +6,7 @@ body {
     height: 2000px;
     background-color: #d4af37;
     margin: auto auto;
+    border-radius: 50px;
 }
 
 .wrapper {
@@ -24,6 +25,7 @@ a {
 h1 {
     text-align: center;
     font-size: 40px;
+    padding-top: 25px;
 }
 
 .link {
