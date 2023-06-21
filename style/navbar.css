@@ -1,0 +1,16 @@
+:root {
+    --header-back-color: #ffffff;
+    --header-hover-back-color: #e4e4e6;
+    --header-border-color: #8c8a8d;
+    --header-fore-color: #000000;
+}
+ 
+a {
+    font-weight: bold;
+}
+
+.right_align {
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}

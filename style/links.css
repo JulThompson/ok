@@ -1,10 +1,15 @@
+html * {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 html {
     background-color: black;
 }
+
 body {
     width: 1200px;
     height: 2000px;
-    background-color: #d4af37;
+    background-color: #e4e4e6;
     margin: auto auto;
     border-radius: 50px;
 }
@@ -34,23 +39,24 @@ h1 {
 
 
 .coolBtn {
+    width: 100px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 0px 5px black;
     border-radius: 3px;
-    background-color: #ffd23f;
+    background-color: #c5c5c5;
     margin-right: 10px;
     transition: all .25s;
 }
 
 .coolBtn:hover{
-    background-color: orange;
+    background-color: #858585;
 }
 
 .coolBtn:active {
-    background-color: orange;
+    background-color: #858585;
     box-shadow: 0px 0px;
     transform: translateY(5px);
 }

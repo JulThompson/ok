@@ -1,0 +1,22 @@
+:root {
+    --back-color: #ffffff;
+}
+
+html * {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.align {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 1px;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 1px;
+}
