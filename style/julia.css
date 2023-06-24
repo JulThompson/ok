@@ -1,0 +1,52 @@
+html * {
+    font-family: 'Pangolin', cursive;
+}
+
+body {
+    color: #cc56ad;
+    background-color: #fae6f5;
+}
+
+.main {
+    padding: 80px;
+    background-color: #fabeeb;
+    width: 70%;
+    margin: auto auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: auto auto;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.big {
+    font-size: 20px;
+    color:#b43f94
+}
+
+#end {
+    margin-top: 30px;
+    font-style: italic;
+    color:#b43f94;
+}
+
+audio {
+    display: grid;
+    margin: auto auto;
+    width: 200px;
+    height: 30px;
+}
