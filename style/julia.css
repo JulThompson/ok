@@ -4,7 +4,7 @@ html * {
 
 body {
     color: #cc56ad;
-    background-color: #fae6f5;
+    background-color: #f8daf0;
 }
 
 .main {
@@ -17,6 +17,7 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
+    transition: all .2s ease-in-out; 
 }
 
 img {
@@ -49,4 +50,16 @@ audio {
     margin: auto auto;
     width: 200px;
     height: 30px;
+}
+
+:root {
+    --header-back-color: #cc56ad;
+    --header-hover-back-color: #b43f94;
+    --header-border-color: #8c8a8d;
+    --header-fore-color: #000000;
+}
+
+h1:hover {
+    transform: scale(1.2); 
+    color:#b43f94
 }
