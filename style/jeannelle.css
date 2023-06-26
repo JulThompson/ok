@@ -1,0 +1,57 @@
+html * {
+    font-family: 'Monaco', cursive;
+}
+
+body {
+    color: #faddd5;
+    background-color: #aa8af7;
+}
+
+/* .main {
+    padding: 50px;
+    background-color: #cdb7f3;
+    width: 70%;
+    margin: auto auto;
+} */
+.main {
+    background-color: #90a3f1;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    font-family: Brush Script MT;
+    text-align: center;
+    font-size: 75px;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: auto auto;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #cbf0ed;
+}
+
+.part1 {
+    margin-bottom: 30px;
+}
+
+.words {
+    font-size: 20px;
+    color:#9bd2ef;
+}
+.word {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:#a3ded9
+}
