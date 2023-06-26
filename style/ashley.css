@@ -1,0 +1,72 @@
+body {
+  background-color: #F4998D;
+}
+
+.main {
+    background: linear-gradient(135deg, #F44E3F, #F4998D);
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 20px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    color: #F40000;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    font-size: 14px;
+    color: #090809;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .heart-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .heart-button::before,
+  .heart-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 12px;
+    height: 20px;
+    border-radius: 50px 50px 0 0;
+    background: #F40000;
+  }
+  
+  .heart-button::before {
+    left: px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+  .heart-button::after {
+    left: 0px;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  
+  .heart-button:hover::before,
+  .heart-button:hover::after {
+    animation: heartBeat 0.8s ease-in-out infinite;
+  }
